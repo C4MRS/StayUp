@@ -27,6 +27,13 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
+    - name: Set environment variables
+      uses: moj/actions-set-env@v2
+      with:
+        DB_LINK: ${{ secrets.DB_LINK }}
+        DB_USERNAME: ${{ secrets.DB_USERNAME }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        API_SENDEMAIL: ${{ secrets.API_SENDEMAIL }}
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
