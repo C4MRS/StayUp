@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/logo.png" width="256" heigth="256">
+  <img src=".github/StayUp_LOGO.jpeg" width="256" heigth="256">
   <!--<h3 align="center"><code>StayUp</code></h3>-->
 </p>
 
