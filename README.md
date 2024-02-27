@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  🎓 Software Project Management and Software Engineering joint project for academic purposes.
+  🎓 Software Engineering project for academic purposes.
 </p>
 
 <h6 align="center">
